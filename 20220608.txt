@@ -1,0 +1,304 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+    <title>Microsoft 365  admin center</title>
+
+    <!-- perfping and other diagnostic scripts -->
+    
+
+
+
+    
+    
+
+    
+
+
+
+    
+    
+
+    
+
+
+
+    
+    
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+        <link rel="shortcut icon" type="image/x-icon" href="https://prod.msocdn.com/2022.6.2.0/en-us/images/favicon_metro.ico" />
+
+    
+</head>
+<body style="display: flex; flex-direction: column">
+    <noscript>
+        
+        
+    </noscript>
+
+     
+
+
+
+
+<script>
+    // isReactEnabled may return undefined when features/all api call delayed, pass directly from here to resolve delay issue
+   var reactEnabled = true
+</script>
+
+
+
+
+
+    <header id="GeminiShellHeader" style="flex: 0 1 auto">
+    </header>
+
+<!--Admin react app code-->
+    <div id="m365-admin-center"></div>
+    <div id="support-central-feedback-widget-container"></div>
+        <script>
+                        // Temporary fix to add localization support for left nav until the loc string module in react is in place.
+                        window.locStrings = {
+                           ExpandLeftNavigation: 'Expand navigation menu',
+                           CollapseLeftNavigation: 'Collapse navigation menu',
+                           ShowMore: 'Show all',
+                           ShowLess: 'Show less',
+                           ShowPinned: 'Show pinned',
+                           editCardTitle: 'Customize Navigation',
+                           AdminUnitScopeHeader: 'Scope'
+                        };
+        </script>
+
+<div id="ShellBodyAndFooterContainer" class="adminScoped o365-theme-base" style="" tabindex="-1">
+    <div class="Shell-Body" id="ShellBody" style="height: auto;">
+        <div id="RootPageLayout" class="PageLayout Layout_FullScreen">
+                            <div>
+    <input type="hidden" name="BOXPageIDField" id="BOXPageIDField" value="ModernAdmin" />
+
+    
+</div>
+            <div class="Content" cellspacing="0" cellpadding="0">
+                <div class="Content" id="LayoutContentContainer">
+                    <div class="Content" cellspacing="0" cellpadding="0">
+                        <div>
+                            <div class="PageLayout-Padding ">
+                            </div>
+                            <div class="PageLayout-Panels">
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // isReactEnabled may return undefined when features/all api call delayed, pass directly from here to resolve delay issue
+       var reactEnabled = true
+    </script>
+
+
+
+
+<input id="GeoLocation" name="GeoLocation" type="hidden" value="wjp" /><input data-val="true" data-val-required="The ConsumerLogin field is required." id="ConsumerLogin" name="ConsumerLogin" type="hidden" value="False" /><input id="DefaultAdminUnitTemplateId" name="DefaultAdminUnitTemplateId" type="hidden" value="" /><input id="DefaultAdminUnitObjId" name="DefaultAdminUnitObjId" type="hidden" value="" />        <script type="application/json" id="initialPreferences">
+            {&quot;Show&quot;:false,&quot;ShowToggle&quot;:false,&quot;ShowSimplifiedViewOptInWindow&quot;:false,&quot;ShowSimplifiedViewOptInCallout&quot;:false,&quot;ShowToggleToDashboardViewCallout&quot;:false,&quot;ShowToggleToSimplifiedViewCallout&quot;:false,&quot;ShowUsersPageSimplifiedViewCallout&quot;:false,&quot;ShowSimplifiedViewCallout&quot;:false,&quot;ShowSignupTransition&quot;:false,&quot;SignupEmail&quot;:null,&quot;ShowUserIntentWindow&quot;:false,&quot;Preferences&quot;:null,&quot;Pivots&quot;:null,&quot;HasEligibleSkus&quot;:false,&quot;eligibilityType&quot;:null,&quot;IsUserEligibleForGreenRoomPanel&quot;:false,&quot;DefaultPivot&quot;:null,&quot;HideTopActions&quot;:null,&quot;EnableSussexDashboard&quot;:false,&quot;EnableTopActionsFromMessageServices&quot;:false,&quot;MaxResponseWaitTimeForTopActionInMsgService&quot;:0}
+        </script> 
+<input id="EnableAriaLogger" name="EnableAriaLogger" type="hidden" value="true" /><input id="SessionId" name="SessionId" type="hidden" value="4f9dee72-ae9b-4d3d-96af-3a22380bed39" /><input id="TenantId" name="TenantId" type="hidden" value="aaaa047c-3bea-404d-88bb-7fb29dc5e8b8" /><input id="Flight" name="Flight" type="hidden" value="AcronymsEnabled;BookmarksEnabled;ChangeLobDescriptionToCode;ConfigurationsEnabled;ConnectorsEnabled;DisableAddingReplyUrlsForSharePointApp;EcsABExperimentTestWithPreAA;Enable7And14DayFilters;EnableAddMembersV2InAdminUnit;EnableADLSGen2Connector;EnableAISuggestedTopicsSetting;EnableAzureDevOpsConnector;EnableAzureDevOpsConnectorECS;EnableAzureSqlConnector;EnableBookmarkLocTarget;EnableBulkRemovePriorityAccounts;EnableCloudEnvConfig;EnableConditionalAccessFeature;EnableConfluenceConnector;EnableCostManagement;EnableCostManagementProductsAndServicesView;EnableCostManagementSat;EnableCotermFeature;EnableCSVConnectorPreviewECS;EnableDeptPurchaseOnBlending;EnableDynamicSiteSupportECS;EnableEdgeEnterpriseSharedCookies;EnableEdgeEnterpriseSiteFeedback;EnableESSConnectors;EnableFileConnector;EnableGCSDrivenQuota;EnableIndependentFlyoutForM365GroupsSettings;EnableIntranetAgentModeECS;EnableIntranetSitesConnector;EnableJiraConnector;EnableJiraConnectorECS;EnableLmsFallbackFeature;EnableLowFrictionTrials;EnableM365GroupsSettings;EnableMcAdditionalFeedbackSignals;EnableMcServiceUsageNumbers;EnableMediaWikiConnector;EnableMeetingInsightsToggle;EnableMicrosoftSearchConfigurationItemInsights;EnableMicrosoftSearchConfigurationSchoolExperience;EnableMicrosoftSearchConfigurationSettings;EnableMicrosoftSearchConfluenceConnectorECS;EnableMicrosoftSearchConnectorMultiInstance;EnableMicrosoftSearchConnectorsECSGA;EnableMicrosoftSearchDefaultVerticalFilterCustomization;EnableMicrosoftSearchFileConnectorConnectorsECS;EnableMicrosoftSearchFilesConnectorExclusionRules;EnableMicrosoftSearchFilesConnectorExclusionRulesByFileType;EnableMicrosoftSearchFilesConnectorMultiDatasource;EnableMicrosoftSearchIdentityMappingForADO;EnableMicrosoftSearchIdentityMappingForJira;EnableMicrosoftSearchInsightsActivityData;EnableMicrosoftSearchInsightsFilter;EnableMicrosoftSearchInsightsMAUData;EnableMicrosoftSearchLink;EnableMicrosoftSearchMsSqlOnPremAgentConnectorECS;EnableMicrosoftSearchOracleSqlConnectorECS;EnableMicrosoftSearchRefinersCustomization;EnableMicrosoftSearchServicePlansCheck;EnableMicrosoftSearchSharepointCustomization;EnableMicrosoftSearchTopics;EnableMicrosoftSearchVivaTopicsInsights;EnableMicrosoftTopicAnalytics;EnableModernPurchaseServices;EnableMsSqlOnPremAgentConnector;EnableNewMSBFeature;EnableOfficeAppsAssignLicenseDialog;EnableOfficeDownloadAndSharingForConsumerIdV2;EnableOnPremWinAuth;EnableOracleSqlConnector;EnableOwnerlessGroupsPolicyConfiguration;EnablePartnerManageRedesignSurveys;EnablePayAsYouGo;EnablePriorityAccountsEnhancedTagging;EnableReactNPSSurveyEditLicenseQuantity;EnableReactNPSSurveyTrialExtendEndDate;EnableReactUTPSurvey;EnableRoleInM365GroupCreation;EnableSalesForceConnector;EnableSalesforceEntitySelectECS;EnableSalesforcePreviewECS;EnableScopeInfoInRoleAssignments;EnableServiceNowCatalogConnector;EnableServiceNowCatalogConnectorECS;EnableServiceNowKBConnector;EnableShareDownloadLinkOnLicenseAssignment;EnableShdEmailPreferenceGranular;EnableShiftsConnectorFeaturePage;EnableShimmer;EnableSimplifiedShareOfficeDownloadLink;EnableSmbConversionPromo;EnableSmbPilotManage;EnableSqlConnector;EnableTenantFeedbackInsights;EnableTopicExclusionSensitivityLabelsEAP;EnableTopParamForFetchingSP;EnableUnifiedCollaborationPanel;EnableWindows365Device;Exp130705C;Exp241135RemoveCreditCardThroughRESTAPI2;Exp251268IWPromoteEdge;Exp251514MSUXHideAlchemy;Exp251609C;Exp251680EnableUnsolicitedFeedbackNeedHelp;Exp251994shouldShowNotificationUX;Exp252029C;Exp252037C;Exp252051C;Exp252053C;Exp252085C;Exp252086C;Exp252096C;Exp252097EnableCommonActionsInSimplifiedView;Exp252105NewDashboardExperience;Exp252106ShowVisioWebToWacUsers;Exp252113C;Exp252118ShowTrainingPivot;Exp9015C;Exp9016C;FloorPlansEnabled;HandleMsalClientException;IgnoreRemoveWithAddinNotFound;IgnoreUploadWithAddinExists;InsightsEnabled;IsFeedbackEnabled;LocationsEnabled;MigrateDirectoryObjectCall;PBEnableCoterm;QnAsEnabled;ResultTypesEnabled;SE372079EnableDCISettings;SE372530EnableOfficeScriptsPowerAutomate;SE372582EnableEACRolloutEighthSeatRestriction;SE372604EnableWindowsReleaseHealthForGA;SE372729ShowVlEnrollmentView;SE372740EnableSaaSBlending;SE372742EnablePartnerInviteTradeScreen;SE372743EnableSurveyFlyoutTimerPause;ShowAVSSuggestions;SimplifiedUsersShowLanguageSetting;SPOUserToken;UDGlobalReaderEnabled;UDIsPopularAppsRecommendationEnabled;UDIsWxpoUsageEnabled;UDShouldUseV2AppUsageEndpoint;UpdateAADCapabilitiesInGetAddinDetailsCall;UpdateKMVerifySiteUrlApi;UseNewFlwOrchestratorService;VerticalsEnabled;WriteInstalledToEveryoneTimeInSP;ExpCEnablePartnerManageRedesign" /><input id="LoggerId" name="LoggerId" type="hidden" value="ea84b6a3285140258eaeb7caaab5884a-9d3ca75b-b3ee-42b8-a22c-ab0759ad4d38-7330" /><input id="CloudEnvironment" name="CloudEnvironment" type="hidden" value="Prod" /><input id="Puid" name="Puid" type="hidden" value="100320019A2C7D37" /><input data-val="true" data-val-required="The IsPartnerAgent field is required." id="IsPartnerAgent" name="IsPartnerAgent" type="hidden" value="False" /><input data-val="true" data-val-required="The IsAdmin field is required." id="IsAdmin" name="IsAdmin" type="hidden" value="True" />
+
+            <script type="application/json" id="currentUser">
+                {&quot;UserInfo&quot;:{&quot;DisplayName&quot;:&quot;\uac15\ubcd1\uc11d&quot;,&quot;SyncType&quot;:null,&quot;DirSyncEnabled&quot;:false,&quot;UserPrincipalName&quot;:&quot;peter.kang@azure.s1.co.kr&quot;,&quot;PUID&quot;:&quot;100320019A2C7D37&quot;,&quot;ObjectId&quot;:&quot;168233dc-74b5-4ac8-8432-36646755646c&quot;,&quot;FirstName&quot;:&quot;\uac15&quot;,&quot;LastName&quot;:&quot;\ubcd1\uc11d&quot;,&quot;DeletedTime&quot;:null,&quot;Initials&quot;:&quot;\uac15\ubcd1&quot;,&quot;InitialsColor&quot;:&quot;#B4009E&quot;,&quot;UserStatus&quot;:null,&quot;HasExchange&quot;:true,&quot;HasTeams&quot;:false,&quot;JobTitle&quot;:null,&quot;Department&quot;:null,&quot;IsGuestUser&quot;:false,&quot;CreationDateTime&quot;:&quot;2019-05-20T00:10:27.2957069Z&quot;,&quot;HasOfficeUICapability&quot;:false,&quot;PreferredDataLocation&quot;:null,&quot;City&quot;:null,&quot;CountryOrRegion&quot;:null,&quot;Office&quot;:null,&quot;StateOrProvince&quot;:null,&quot;UsageLocation&quot;:null,&quot;LastDirSyncTime&quot;:null,&quot;SigninStatus&quot;:null,&quot;SigninStatusBoolean&quot;:false,&quot;Licenses&quot;:null,&quot;AssignedProductSkus&quot;:null,&quot;HasLicense&quot;:false,&quot;IsUserResourceMailbox&quot;:false,&quot;MicrosoftCommunicationsOnlineProvisioningStatus&quot;:0,&quot;TeamsProvisioningStatus&quot;:0,&quot;InvitationStatus&quot;:null,&quot;ConsumerIdSignInEmailAddress&quot;:null},&quot;AdminPageTitle&quot;:&quot;Microsoft 365  admin center&quot;,&quot;IsRightToLeft&quot;:false,&quot;DatePattern&quot;:&quot;M/d/yyyy&quot;,&quot;CultureInfo&quot;:&quot;en-US&quot;,&quot;DefaultedToModernPortal&quot;:false,&quot;CompanyName&quot;:&quot;S1 Corporation&quot;,&quot;TourEnabled&quot;:false,&quot;TenantUICapability&quot;:false,&quot;ReportingEnabled&quot;:true,&quot;DirSyncEnabled&quot;:false,&quot;ManageUserExchangeEnabled&quot;:false,&quot;ManageExchangeEnabled&quot;:false,&quot;CanManageGroups&quot;:false,&quot;IsExchangeAdmin&quot;:false,&quot;OldPortalFeedbackShown&quot;:false,&quot;HideSetupBanner&quot;:false,&quot;ShowDomainFeedback&quot;:true,&quot;SetUserEnabled&quot;:false,&quot;CustomizationModel&quot;:{&quot;dfwdlst&quot;:null,&quot;nremwdlst&quot;:null,&quot;uselwdlst&quot;:null,&quot;sdfwdlst&quot;:null,&quot;snremwdlst&quot;:null,&quot;suselwdlst&quot;:null,&quot;colwd&quot;:null,&quot;selwds&quot;:null,&quot;dbconf&quot;:null,&quot;wdrh&quot;:null,&quot;ShowEditButtonInCustomDashboard&quot;:false},&quot;DashboardModel&quot;:null,&quot;EnterpriseAgreementUser&quot;:false,&quot;IsResellerAndDirectCustomer&quot;:true,&quot;IsSyndicatePartnerCustomer&quot;:false,&quot;IsGlobalAdmin&quot;:false,&quot;IsAoboScenario&quot;:false,&quot;HasExchangeLicense&quot;:true,&quot;SyndicatedPartnerPortalUrl&quot;:null,&quot;HasAdministrativeUnitScopedRoles&quot;:false,&quot;SupportedLocaleID&quot;:&quot;en&quot;,&quot;TenantCompanyId&quot;:&quot;aaaa047c-3bea-404d-88bb-7fb29dc5e8b8&quot;,&quot;IsConsumerIdLogin&quot;:false,&quot;ConsumerEmailAddress&quot;:null,&quot;TenantDefaultDomain&quot;:&quot;azure.s1.co.kr&quot;,&quot;CompanyCountryLetterCode&quot;:&quot;KR&quot;,&quot;MicrosoftCommunicationsOnlineProvisioningStatus&quot;:2,&quot;TeamsProvisioningStatus&quot;:2,&quot;HasAbilityToInstallOffice&quot;:false,&quot;ConsumerPuid&quot;:&quot;&quot;}
+            </script>
+            <script type="application/json" id="initialFeatures">
+                {&quot;GlobalAdmin&quot;:0,&quot;GlobalReader&quot;:0,&quot;AddUser&quot;:0,&quot;ListUsers&quot;:1,&quot;EditUser&quot;:0,&quot;ShowSecurityandComplianceWidget&quot;:0,&quot;ShowDeviceManagementWidget&quot;:0,&quot;ShowAzureActiveDirectoryWidget&quot;:0,&quot;EnableCaseInsensitiveSearchMsgBar&quot;:0,&quot;ResetUserPassword&quot;:0,&quot;NewPasswordManagement&quot;:0,&quot;NewPasswordEmailOption&quot;:1,&quot;DashboardCardDeleteUser&quot;:0,&quot;DeleteUser&quot;:0,&quot;EditGroup&quot;:1,&quot;MessageCenterWidget&quot;:1,&quot;ViewBilling&quot;:1,&quot;ServiceStatusWidget&quot;:1,&quot;ServiceHealthDashboardUXv3&quot;:1,&quot;ReportingWidget&quot;:0,&quot;EnableReactLeftNav&quot;:0,&quot;EnableLowResReactLeftNav&quot;:1,&quot;UserInReactGA&quot;:1,&quot;EnableReactEditLeftNav&quot;:1,&quot;EnableReactUsersV2&quot;:1,&quot;EnableReactSetupBanner&quot;:0,&quot;EnableReactGuestUserList&quot;:1,&quot;EnableReactResourceMailBox&quot;:0,&quot;EnableReactSharedMailboxList&quot;:0,&quot;EnableReactSitesList&quot;:0,&quot;EnableReactGroupList&quot;:1,&quot;EnableReactDeletedUserList&quot;:1,&quot;EnableReactContactList&quot;:1,&quot;EnableReactDeletedGroupList&quot;:1,&quot;EnableReactContrastMode&quot;:1,&quot;EnableReactDarkMode&quot;:1,&quot;EnableInlinePurchaseLicense&quot;:0,&quot;EnableNewConfirmationForAddUser&quot;:0,&quot;EnableSharedAddUserTemplates&quot;:0,&quot;EnableManageSharedAddUserTemplates&quot;:0,&quot;EnableM365SetupWizard&quot;:0,&quot;EnableReactMessageCenter&quot;:1,&quot;EnableReactServiceHealthDashboard&quot;:1,&quot;EnableWindowsReleaseHealth&quot;:0,&quot;EnableShdReportAnIncident&quot;:1,&quot;EnableShdReportAnIncidentSupportLink&quot;:0,&quot;EnableShdReportAnIncidentEmailConfirmation&quot;:0,&quot;EnableShdReportAnIncidentToSpikePsiEventHub&quot;:1,&quot;EnableM365Recommendations&quot;:1,&quot;EnableMipUpSell&quot;:0,&quot;FinishSetupBanner&quot;:0,&quot;ShowDomainExpiration&quot;:0,&quot;ShowDomainExpirationForResellerDomains&quot;:0,&quot;GoToTheOldAdminCenterFeedback&quot;:0,&quot;SignupToSetup&quot;:0,&quot;ExchangeSignupToSetup&quot;:0,&quot;SkypeSignupToSetup&quot;:0,&quot;OfficeSignupToSetup&quot;:0,&quot;ProjectSignupToSetup&quot;:0,&quot;VisioSignupToSetup&quot;:0,&quot;ModernSearch&quot;:1,&quot;ModernSearchTasks&quot;:1,&quot;ModernSearchHelp&quot;:1,&quot;AddDomain&quot;:0,&quot;SetDomain&quot;:0,&quot;RemoveDomain&quot;:0,&quot;EnableCheckDomainForceDeleteDate&quot;:0,&quot;LocalDataComplianceNotice&quot;:0,&quot;LanguageEN&quot;:1,&quot;LanguageRU&quot;:0,&quot;EditSite&quot;:0,&quot;DirSyncManagement&quot;:1,&quot;DirSyncWidget&quot;:1,&quot;DirSyncSettings&quot;:0,&quot;IntuneDevices&quot;:0,&quot;AdminConsoles&quot;:0,&quot;CustomDashboard&quot;:1,&quot;ShowPersonPhoto&quot;:1,&quot;ShowUserPhoto&quot;:0,&quot;HideFindUsBannerButton&quot;:0,&quot;ShouldSetupDNS&quot;:1,&quot;GetDns&quot;:0,&quot;FindWizardsWidgetInDashboard&quot;:0,&quot;EnableEditLeftNavWithIcon&quot;:1,&quot;EnableRecommendations&quot;:0,&quot;EnableOfficeActivationWidget&quot;:0,&quot;EnableSetupGuidanceTile&quot;:0,&quot;EnableIwWizardEmailTemplateWidget&quot;:1,&quot;ShowBillingAccountNode&quot;:1,&quot;ShowBillsAndPaymentNode&quot;:1,&quot;EnableSetupGuidanceABTesting&quot;:0,&quot;EnableSetupGuidanceEntryPointChanges&quot;:1,&quot;EnableIdentityFeature&quot;:0,&quot;EnableSetupGuidanceVerThreeABTesting&quot;:0,&quot;ResourceAccountFeature&quot;:0,&quot;EnableEmailTemplateLink&quot;:0,&quot;UserBasedLicensing&quot;:1,&quot;DeviceBasedSubscription&quot;:1,&quot;DepartmentalUserPurchase&quot;:1,&quot;ShowFirstRunExperience&quot;:0,&quot;EnableMoeraRename&quot;:1,&quot;EnableIPSTagChanges&quot;:1,&quot;CheckContextualAlertsEligibility&quot;:0,&quot;EnableWhatsNew&quot;:1,&quot;UseAdminControlsTheme&quot;:1,&quot;EnableM365ConsumerIdSetupWizard&quot;:1,&quot;EnableOppCdnFeature&quot;:0,&quot;EnableReactPaymentMethods&quot;:1,&quot;EnableReactProductsAndServices&quot;:1,&quot;EnableReactAdminTakeOver&quot;:0,&quot;EnableVSBProductListWave2&quot;:1,&quot;EnableReactPurchaseServices&quot;:1,&quot;EnableReactBillsAndPayments&quot;:1,&quot;EnableReactBillingAccounts&quot;:1,&quot;EnableCrawlFilterByChangedDateAzureDevOps&quot;:0,&quot;EnableShellHeaderInConsumerMode&quot;:1,&quot;ShowWhatsNewDashboardButton&quot;:1}
+            </script>
+
+
+
+
+
+    <div id="AdminCenterIntroDiv"></div>
+<div id="EnableClientHttpCaching" value='true'>
+    
+    <div id="FlyoutContainer" class="flyoutCover ng-scope" style="display:none;">
+        <div id="FlyoutArea" class="FlyoutAreaStyle FlyoutAreaStyle-ltr" style="overflow:auto;">
+            <div id="FlyoutHeader" class="flyOutHeader">
+                <div tabindex="0" id="closeFlyout">
+                    <i class="ms-Icon-FabricMDL2 ms-Icon-FabricMDL2--ChromeClose" aria-hidden="true" style="font-size:20px"></i>
+                </div>
+                <div class="flyOutTitle" id="FlyoutTitle">
+                    <label class="flyOutTitleLabel" id="FlyoutTitleLabel"></label>
+                </div>
+                <div class="flyOutLine" id="FlyoutTitleLine"></div>
+            </div>
+            <div id="FlyoutLoadingGif" class="FlyoutLoadingGifStyle FlyoutLoadingGifStyle-ltr">
+                
+<div class="Loading-Horizontal" data-animate-on-post="True"  role="status">
+        <div class="Loading-Horizontal-Container" id='_Text' style="max-width:800px;" data-autofitfont="true">                   
+            <img class="" alt="Please Wait" src="https://prod.msocdn.com"  />
+            <div class="Loading-Horizontal-Text">Please wait</div> 
+        </div>
+</div>
+
+
+            </div>
+            <div id="FlyoutHtmlContent" style="display:none;height:100%">
+                <!-- HTML content will be pulled from the server and added here -->
+                <iframe name="FlyoutIframe" class="FlyoutHtmlContentIFrame" style="height:100%"></iframe>
+            </div>
+            <div id="LocalPaneHtmlContent" style="display:none;" class="localpane-content">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Hidden div for announcing UI changes -->
+<div class="admin-acc-hidden">
+    <div id="admin-screenreader-announcer-assertive" class="admin-acc-hidden" aria-live="assertive"></div>
+    <div id="admin-screenreader-announcer-polite" class="admin-acc-hidden" aria-live="polite"></div>
+</div>
+
+<!-- Footer -->
+<div id="DelayLoadAdminFooter"></div>
+
+<div id="AdminAppFooter">
+    
+</div>
+
+<div style="display: none;">
+    <div class="DialogManager-Area" id="dialogArea" style="display: none;" role="dialog" aria-labelledby="dialogHeaderArea" aria-describedby="dialogBodyArea" data-accept-default-text="Yes" data-decline-default-text="No" data-dismiss-default-text="Close">
+        <div class="DialogManager-Shield ms-bgc-b" id="dialogShield">
+        </div>
+        <div class="DialogManager-Foreground" id="dialogForeground">
+            <div class="DialogManager-Frame ms-bgc-w ms-bcl-ts" id="dialogFrame">
+                <div class="DialogManager-TopRegion ms-bcl-w" id="dialogTopRegion">
+                    <div class="DialogManager-CloseButtonArea ms-bcl-w">
+                        
+
+
+    <a data-client-click="DialogManager.dismiss(DialogManager.negativeConfirmation); return false;"  id="dialogCloseIcon" class="HyperLink ms-fcl-b" href="#"><span>
+
+<span  id="dialogCloseIconFont" class="wf-portal wf-portal-cross" title="Cancel"></span>
+                            </span>
+</a>
+
+
+                    </div>
+                </div>
+                <div class="DialogManager-MiddleRegion" id="dialogMiddleRegion">
+                    <div class="DialogManager-Header ms-bcl-w" id="dialogHeaderArea">
+                        <table cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td class="DialogManager-HeaderLeftTD"></td>
+                                    <td class="DialogManager-HeaderRightTD">
+                                        <div class="DialogManager-Title ms-fcl-np" id="dialogTitleArea">
+                                        </div>
+                                        <div class="DialogManager-SubTitle ms-fcl-np" id="dialogSubTitleArea">
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="DialogManager-ContentArea ms-bcl-w" id="dialogContentArea">
+                        <div class="DialogManager-BodyArea" id="dialogBodyArea">
+                        </div>
+                        <div class="DialogManager-LearnMoreArea" id="dialogLearnMoreArea" style="display: none;">
+                            <!-- no learn more in metro view -->
+                        </div>
+                        <div class="DialogManager-Footer" id="dialogFooterArea" style="display: none;">
+                            ﻿<span id="DialogManager1_dialogAcceptButton_disabled" class="Button-disabled ms-fcl-ns ms-bgc-nt ms-bcl-nt" style="display:none;" role="button" aria-disabled="true" aria-hidden="true"  id="DialogManager1_dialogAcceptButton">
+    <span></span>
+</span>
+<a class="Button ms-fcl-np ms-bgc-nlr ms-bcl-tt" id="DialogManager1_dialogAcceptButton" style="display: inline-block;" role="button" data-client-click="DialogManager.dismiss(DialogManager.positiveConfirmation); return false;" data-is-primary="false" href="#"  id="DialogManager1_dialogAcceptButton">
+    <span></span>
+</a>
+
+
+                            ﻿<span id="DialogManager1_dialogDismissButton_disabled" class="Button-disabled ms-fcl-ns ms-bgc-nt ms-bcl-nt" style="display:none;" role="button" aria-disabled="true" aria-hidden="true"  id="DialogManager1_dialogDismissButton">
+    <span></span>
+</span>
+<a class="Button ms-fcl-np ms-bgc-nlr ms-bcl-tt" id="DialogManager1_dialogDismissButton" style="display: inline-block;" role="button" data-client-click="DialogManager.dismiss(DialogManager.negativeConfirmation); return false;" data-is-primary="false" href="#"  id="DialogManager1_dialogDismissButton">
+    <span></span>
+</a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="DialogManager-BottomRegion" id="dialogBottomRegion">
+                    <div class="DialogManager-BottomPaddingArea ms-bcl-w">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+                            </div>
+                            <div class="PageLayout-Padding ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="Shell-Footer " id="ShellFooter">
+        <div id="O365_FooterContainer">
+            
+    
+
+        </div>
+    </div>
+    <div id="TraceInfoDiv" style="display:none">PUID:100320019A2C7D37 TID:aaaa047c-3bea-404d-88bb-7fb29dc5e8b8 SID:4f9dee72-ae9b-4d3d-96af-3a22380bed39 CID:6d86efe9-566c-4512-b819-ce43fbf9e2cc GEO:wjp F:15GA,AcronymsEnabled,BookmarksEnabled,ChangeLobDescriptionToCode,ConfigurationsEnabled,ConnectorsEnabled,DisableAddingReplyUrlsForSharePointApp,EcsABExperimentTestWithPreAA,Enable7And14DayFilters,EnableAddMembersV2InAdminUnit,EnableADLSGen2Connector,EnableAISuggestedTopicsSetting,EnableAzureDevOpsConnector,EnableAzureDevOpsConnectorECS,EnableAzureSqlConnector,EnableBookmarkLocTarget,EnableBulkRemovePriorityAccounts,EnableCloudEnvConfig,EnableConditionalAccessFeature,EnableConfluenceConnector,EnableCostManagement,EnableCostManagementProductsAndServicesView,EnableCostManagementSat,EnableCotermFeature,EnableCSVConnectorPreviewECS,EnableDeptPurchaseOnBlending,EnableDynamicSiteSupportECS,EnableEdgeEnterpriseSharedCookies,EnableEdgeEnterpriseSiteFeedback,EnableESSConnectors,EnableFileConnector,EnableGCSDrivenQuota,EnableIndependentFlyoutForM365GroupsSettings,EnableIntranetAgentModeECS,EnableIntranetSitesConnector,EnableJiraConnector,EnableJiraConnectorECS,EnableLmsFallbackFeature,EnableLowFrictionTrials,EnableM365GroupsSettings,EnableMcAdditionalFeedbackSignals,EnableMcServiceUsageNumbers,EnableMediaWikiConnector,EnableMeetingInsightsToggle,EnableMicrosoftSearchConfigurationItemInsights,EnableMicrosoftSearchConfigurationSchoolExperience,EnableMicrosoftSearchConfigurationSettings,EnableMicrosoftSearchConfluenceConnectorECS,EnableMicrosoftSearchConnectorMultiInstance,EnableMicrosoftSearchConnectorsECSGA,EnableMicrosoftSearchDefaultVerticalFilterCustomization,EnableMicrosoftSearchFileConnectorConnectorsECS,EnableMicrosoftSearchFilesConnectorExclusionRules,EnableMicrosoftSearchFilesConnectorExclusionRulesByFileType,EnableMicrosoftSearchFilesConnectorMultiDatasource,EnableMicrosoftSearchIdentityMappingForADO,EnableMicrosoftSearchIdentityMappingForJira,EnableMicrosoftSearchInsightsActivityData,EnableMicrosoftSearchInsightsFilter,EnableMicrosoftSearchInsightsMAUData,EnableMicrosoftSearchLink,EnableMicrosoftSearchMsSqlOnPremAgentConnectorECS,EnableMicrosoftSearchOracleSqlConnectorECS,EnableMicrosoftSearchRefinersCustomization,EnableMicrosoftSearchServicePlansCheck,EnableMicrosoftSearchSharepointCustomization,EnableMicrosoftSearchTopics,EnableMicrosoftSearchVivaTopicsInsights,EnableMicrosoftTopicAnalytics,EnableModernPurchaseServices,EnableMsSqlOnPremAgentConnector,EnableNewMSBFeature,EnableOfficeAppsAssignLicenseDialog,EnableOfficeDownloadAndSharingForConsumerIdV2,EnableOnPremWinAuth,EnableOracleSqlConnector,EnableOwnerlessGroupsPolicyConfiguration,EnablePartnerManageRedesignSurveys,EnablePayAsYouGo,EnablePriorityAccountsEnhancedTagging,EnableReactNPSSurveyEditLicenseQuantity,EnableReactNPSSurveyTrialExtendEndDate,EnableReactUTPSurvey,EnableRoleInM365GroupCreation,EnableSalesForceConnector,EnableSalesforceEntitySelectECS,EnableSalesforcePreviewECS,EnableScopeInfoInRoleAssignments,EnableServiceNowCatalogConnector,EnableServiceNowCatalogConnectorECS,EnableServiceNowKBConnector,EnableShareDownloadLinkOnLicenseAssignment,EnableShdEmailPreferenceGranular,EnableShiftsConnectorFeaturePage,EnableShimmer,EnableSimplifiedShareOfficeDownloadLink,EnableSmbConversionPromo,EnableSmbPilotManage,EnableSqlConnector,EnableTenantFeedbackInsights,EnableTopicExclusionSensitivityLabelsEAP,EnableTopParamForFetchingSP,EnableUnifiedCollaborationPanel,EnableWindows365Device,Exp130705C,Exp241135RemoveCreditCardThroughRESTAPI2,Exp251268IWPromoteEdge,Exp251514MSUXHideAlchemy,Exp251609C,Exp251680EnableUnsolicitedFeedbackNeedHelp,Exp251994shouldShowNotificationUX,Exp252029C,Exp252037C,Exp252051C,Exp252053C,Exp252085C,Exp252086C,Exp252096C,Exp252097EnableCommonActionsInSimplifiedView,Exp252105NewDashboardExperience,Exp252106ShowVisioWebToWacUsers,Exp252113C,Exp252118ShowTrainingPivot,Exp9015C,Exp9016C,FloorPlansEnabled,HandleMsalClientException,IgnoreRemoveWithAddinNotFound,IgnoreUploadWithAddinExists,InsightsEnabled,IsFeedbackEnabled,LocationsEnabled,MigrateDirectoryObjectCall,PBEnableCoterm,QnAsEnabled,ResultTypesEnabled,SE372079EnableDCISettings,SE372530EnableOfficeScriptsPowerAutomate,SE372582EnableEACRolloutEighthSeatRestriction,SE372604EnableWindowsReleaseHealthForGA,SE372729ShowVlEnrollmentView,SE372740EnableSaaSBlending,SE372742EnablePartnerInviteTradeScreen,SE372743EnableSurveyFlyoutTimerPause,ShowAVSSuggestions,SimplifiedUsersShowLanguageSetting,SPOUserToken,UDGlobalReaderEnabled,UDIsPopularAppsRecommendationEnabled,UDIsWxpoUsageEnabled,UDShouldUseV2AppUsageEndpoint,UpdateAADCapabilitiesInGetAddinDetailsCall,UpdateKMVerifySiteUrlApi,UseNewFlwOrchestratorService,VerticalsEnabled,WriteInstalledToEveryoneTimeInSP,ExpCEnablePartnerManageRedesign R:WorldWide D:2022-06-08 05:45:34Z</div>
+    <!-- Instance: Website_IN_20; DeploymentId: 2268068dafba4eb8a7fa73e90d6c4f3c -->
+</div>
+
+
+
+    
+
+
+
+    
+    
+    
+    
+    
+
+
+
+    
+
+    
+
+
+
+    
+    <script type='text/javascript'>window.m365config={cdnUrl:"https://prod.msocdn.com/M365/admin-main/2022.6.2.3/",userLocale:"en-US",hostingAppUrls:"{\"M365AdminPortal\":\"https://admin.microsoft.com\",\"EXOAdminPortal\":\"https://admin.exchange.microsoft.com\",\"SPOAdminPortal\":\"https://admin.microsoft.com/sharepoint\",\"TeamsAdminPortal\":\"https://admin-int.teams.microsoft.net/\",\"MSGraphEndPoint\":\"https://graph.microsoft.com\",\"CDNRootURL\":\"https://prod.msocdn.com\"}",bootstrapMode:"enableAggregatedDispatch",maxPltInSeconds:60,shellWorkLoadId:"AdminPortal"}</script><script type="text/javascript" src="https://prod.msocdn.com/M365/admin-main/2022.6.2.3/inline.en.bundle.js" ></script>
+    
+
+ 
+    <script>window.classicEnvironment = {"type":"parallel","optional":true,"children":[{"type":"sequential","optional":true,"children":[{"type":"script","content":"window.O365=window.O365||{},O365.CID=\"6d86efe9-566c-4512-b819-ce43fbf9e2cc\",O365.PID=\"adminportal-home\",O365.TID=\"aaaa047c-3bea-404d-88bb-7fb29dc5e8b8\",O365.UID=\"168233dc-74b5-4ac8-8432-36646755646c\",O365.PUID=\"100320019A2C7D37\",O365.LURL=\"\",O365.CLSID=\"4f9dee72-ae9b-4d3d-96af-3a22380bed39\""},{"type":"script","content":"var O365;(function(n){n.Perf={},n.Perf.M={S:new Date};var t=!1,i=function(i){var u,f;t||(t=!0,u=n.Perf.M,u[i]=new Date,f=u[i].getTime(),window.setTimeout(function(){var e=\"\",s,l,t,a,v;try{for(s=[\"L\",\"U\",\"M\"],e+=\"{B:{S:'\"+i+\"',\",t=0;t<s.length;t++)e+=r(s[t],u.S,u[s[t]],t===s.length-1);if(e+=\"}\",window.performance&&performance.timing){var o=window.performance.timing,y=o.fetchStart,p=u.M?u.M.getTime():-1,h=[\"E\",\"O\",\"D\",\"C\",\"R\",\"S\",\"M\",\"L\"],c=o.loadEventStart;for(c&&(f=c),l=[o.redirectStart,o.domainLookupStart,o.domainLookupEnd,o.connectEnd,o.responseStart,o.responseEnd,p,c],e+=\",A:{\",t=0;t<h.length;t++)e+=r(h[t],y,l[t],t===h.length-1);e+=\"}\"}e+=\",C:{LT:\"+f+\"}}\"}catch(w){e+=\"!E!\"+encodeURIComponent(w.toString().substr(0,100))}a=\"/pp.l\",v=new Image,v.src=a+\"?CID=\"+n.CID+\"&pageId=\"+n.PID+\"&d=\"+e},1))},r=function(n,t,i,r){var u=i&&i>=t?i-t:-1;return n+\"T:\"+u+(r?\"\":\",\")};window.onload=function(){i('L')},window.onbeforeunload=function(){i('U')}})(O365||(O365={}))"},{"type":"scriptUrl","content":"https://prod.msocdn.com/2022.6.2.0/en-us/js/jquery/jquery-1_10_2_min.js"},{"type":"scriptUrl","content":"https://prod.msocdn.com/2022.6.2.0/en-us/jsc/commoncontrolbundle.js"},{"type":"scriptUrl","content":"https://prod.msocdn.com/2022.6.2.0/en-us/jsc/headbundle.js"},{"type":"scriptUrl","content":"https://prod.msocdn.com/2022.6.2.0/en-us/jsc/controlbundle.js"},{"type":"script","content":"$(document).ready(function(){$(\"body\").css(\"overflow\",\"hidden\"),PageLayout.ResizePanels(\"RootPageLayout\"),PageLayout.Layouts[PageLayout.Layouts.length]=\"RootPageLayout\",$(window).resize(PageLayout.WindowResizeEvent)})"},{"type":"scriptUrl","content":"https://prod.msocdn.com/2022.6.2.0/en-us/jsc/microsoftajaxcombined.js"},{"type":"script","content":"Shared.InitClientLogging()"},{"type":"script","content":"Shared.InitPerfPingClientLoggingUrl('\"https://clientlog.portal.office.com/pp.l/\"')"},{"type":"scriptUrl","content":"https://prod.msocdn.com/2022.6.2.0/en-us/jsc/nlrtlibraryforreactdashboardsearch.js"},{"type":"script","content":"function WizardSessionExpired(){window.top.DialogManager.alertHtml(BOX.JS.IconType.info,\"Sign-in required\",\"For security reasons, please try signing in again.\\u003cbr/\\u003e\\u003cbr/\\u003eIf you receive this notification again, a specific browser setting is preventing you from utilizing this page.  Please follow this \\u003ca onclick=\\\"_s.i(this);\\\" class=\\\"ms-fcl-tp\\\" href=\\\"https://g.microsoftonline.com/0BX20en/926\\\" target=\\\"_blank\\\" boxtype=\\\"HyperLink\\\"\\u003esupport article\\u003c/a\\u003e to fix the issue.\",function(){window.top.location.reload()},\"Close\")}"},{"type":"script","content":"var loadZone=window.top.document.getElementById('loadZone');loadZone&&(loadZone.style.display='none'),window!=window.top&&window.top.NavigationGlobalMethods&&window.top.NavigationGlobalMethods.UpdateNavigationLayout(window.document)"},{"type":"scriptUrl","content":"https://prod.msocdn.com/2022.6.2.0/en-us/js/dialogmanagerinit.js"},{"type":"script","content":"O365.Perf.M.M=new Date"},{"type":"script","content":"$(document).on('feedbackV2',function(){ModalFeedbackV2.Init('https://prod.msocdn.com/2022.6.2.0/en-US',$(\"#ModernModalFeedbackContainerV2\"),!1)})"},{"type":"script","content":"$(document).on('feedbackV1',function(){ModalFeedbackV2.Init('https://prod.msocdn.com/2022.6.2.0/en-US',$(\"#ModernModalFeedbackContainer\"),!1)})"},{"type":"script","content":"$(\"input[name='AjaxSessionKey']\").attr('value',Microsoft.Online.BOX.JS.Shared.GetSessionCookie('AjaxSessionKey'))"}]},{"type":"sequential","optional":true,"children":[{"type":"styleUrl","content":"https://prod.msocdn.com/2022.6.2.0/en-us/css/embeddedfonts.css"},{"type":"styleUrl","content":"https://prod.msocdn.com/2022.6.2.0/en-us/css/masterstyles15.css"},{"type":"styleUrl","content":"https://prod.msocdn.com/2022.6.2.0/en-us/css/masterstyles15mvc.css"}]}]};</script>
+    
+
+    
+    
+</body>
+</html>
